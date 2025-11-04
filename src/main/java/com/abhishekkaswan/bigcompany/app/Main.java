@@ -22,11 +22,11 @@ public class Main {
             System.out.println("Using CSV file from provided path : "+csvPath);
         }
         else{
-            System.out.println("No valid CSV path provided. Using default 'employees.csv' from resources.\n");
+            System.out.println("No valid CSV path provided. Using default 'employees_bigDataset.csv' from resources.\n");
 
-            InputStream resourceStream = Main.class.getClassLoader().getResourceAsStream("employees.csv");
+            InputStream resourceStream = Main.class.getClassLoader().getResourceAsStream("employees_bigDataset.csv");
             if(resourceStream == null){
-                System.out.println("OOPS ! Default resource 'employees.csv' not found JAR!");
+                System.out.println("OOPS ! Default resource 'employees_bigDataset.csv' not found JAR!");
                 return;
             }
             Path tempFile = Files.createTempFile("employees",".csv");

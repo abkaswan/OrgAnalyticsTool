@@ -24,7 +24,7 @@ public class CSVReader {
 
             String id = parts[0].trim();
             String firstName = parts[1].trim();
-            String lastName = parts[1].trim();
+            String lastName = parts[2].trim();
             double salary = Double.parseDouble(parts[3].trim());
             String managerId = parts.length>4?parts[4].trim():null;
 
