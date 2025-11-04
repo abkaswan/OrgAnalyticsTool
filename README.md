@@ -83,5 +83,9 @@ B. Using the default CSV file (from resources)
 java -jar target/OrgAnalyticsTool-1.0-SNAPSHOT.jar
 ```
 
+---
 
+## Author
+Abhishek Kaswan
 
+contact : `abkaswan2000@gmail.com`
